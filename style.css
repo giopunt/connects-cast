@@ -39,9 +39,18 @@ body {
 main section {
   width: 100%;
   min-height: calc(var(--vh, 1vh) * 100);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -96,6 +105,7 @@ section.welcome .wave {
   bottom: 0;
   left: 0;
   background: url('icons/wave.png');
+  -webkit-animation: animate 20s linear infinite;
   animation: animate 20s linear infinite;
   z-index: 0;
 }
@@ -109,6 +119,7 @@ section.welcome .wave:before {
   top: 0;
   left: 0;
   opacity: .4;
+  -webkit-animation: animate-reverse 20s linear infinite;
   animation: animate-reverse 20s linear infinite;
 }
 
@@ -121,8 +132,19 @@ section.welcome .wave:after {
   top: 0;
   left: 0;
   opacity: .6;
+  -webkit-animation-delay: -5s;
   animation-delay: -5s;
+  -webkit-animation: animate-reverse 30s linear infinite;
   animation: animate-reverse 30s linear infinite;
+}
+@-webkit-keyframes animate {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: 1360px;
+  }
 }
 @keyframes animate {
   0% {
@@ -131,6 +153,15 @@ section.welcome .wave:after {
 
   100% {
     background-position: 1360px;
+  }
+}
+@-webkit-keyframes animate-reverse {
+  0% {
+    background-position: 1360px;
+  }
+
+  100% {
+    background-position: 0;
   }
 }
 @keyframes animate-reverse {
@@ -234,13 +265,25 @@ section.contact-form form {
 }
 
 section.contact-form .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
 }
 
 section.contact-form .row div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
   flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding: 15px 20px 15px 0;
 }
@@ -264,6 +307,7 @@ section.contact-form textarea {
   padding: 0 10px;
   font-size: 18px;
   border-radius: 0;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
@@ -290,7 +334,12 @@ section.contact-form .privacy-policy label {
 }
 
 section.contact-form .privacy-policy div {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
 }
 
@@ -339,6 +388,9 @@ footer img {
   }
 
   section.contact-form .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 }
