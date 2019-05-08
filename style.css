@@ -352,11 +352,11 @@ main section.listen-to-ours {
   padding: 50px 0;
 }
 
-section.listen-to-ours h2 {
-  font-size: 40px;
-  line-height: 44px;
+section.listen-to-ours h3 {
+  font-size: 30px;
+  line-height: 33px;
   font-weight: 500;
-  margin: 30px 0 20px;
+  margin: 25px 0 15px;
 }
 
 section.listen-to-ours p {
