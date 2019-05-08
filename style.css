@@ -1,0 +1,336 @@
+@font-face {
+  font-family: 'Founders Grotesque';
+  src: url("../fonts/FoundersGroteskWeb-Regular.woff2") format("woff2"), url("../fonts/FoundersGroteskWeb-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Founders Grotesque';
+  src: url("../fonts/FoundersGroteskWeb-Medium.woff2") format("woff2"), url("../fonts/FoundersGroteskWeb-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: 'Founders Grotesque';
+  src: url("../fonts/FoundersGroteskWeb-Semibold.woff2") format("woff2"), url("../fonts/FoundersGroteskWeb-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+body,
+body *,
+html {
+  font-family: 'Founders Grotesque', sans-serif;
+}
+
+a {
+  color: #2d2d2d;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+main section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main section:nth-child(2n) {
+  background-color: #efe532;
+}
+
+main section .content {
+  max-width: 690px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 44px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: .4px;
+}
+
+h3 {
+  font-size: 27px;
+  line-height: 30px;
+  letter-spacing: .4px;
+}
+
+h1.logo img {
+  width: 300px;
+  margin-bottom: 30px;
+  margin-left: -20px;
+}
+
+strong {
+  font-weight: 500;
+}
+
+section.welcome {
+  background: #eee;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section.welcome .wave {
+  position: absolute;
+  width: 100%;
+  height: 143px;
+  bottom: 0;
+  left: 0;
+  background: url('icons/wave.png');
+  animation: animate 20s linear infinite;
+}
+
+section.welcome .wave:before {
+  content: '';
+  width: 100%;
+  height: 143px;
+  background: url('icons/wave.png');
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .4;
+  animation: animate-reverse 20s linear infinite;
+}
+
+section.welcome .wave:after {
+  content: '';
+  width: 100%;
+  height: 143px;
+  background: url('icons/wave.png');
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .6;
+  animation-delay: -5s;
+  animation: animate-reverse 30s linear infinite;
+}
+@keyframes animate {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: 1360px;
+  }
+}
+@keyframes animate-reverse {
+  0% {
+    background-position: 1360px;
+  }
+
+  100% {
+    background-position: 0;
+  }
+}
+
+section.welcome h2 {
+  margin-bottom: 30px;
+}
+
+section.welcome h2.message {
+  font-weight: 500;
+}
+
+section.welcome h2.description {
+  color: #333;
+}
+
+section.about img {
+  margin: 0 auto 30px;
+  display: block;
+  width: 200px;
+}
+
+section.about p {
+  text-align: center;
+  letter-spacing: .4px;
+  line-height: 40px;
+}
+
+section.how-it-works .content,
+section.why-a-podcats .content {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+section.how-it-works h2,
+section.why-a-podcats h2 {
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 500;
+  margin: 30px 0 20px;
+}
+
+section.how-it-works ol {
+  margin: 40px 0;
+}
+
+section.how-it-works ol p {
+  font-size: 24px;
+  margin: 30px 0 20px;
+  color: #333;
+  line-height: 40px;
+}
+
+section.how-it-works ol li {
+  padding: 20px 0;
+}
+
+section.how-it-works ol h3 {
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+main section p {
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: .4px;
+}
+
+section.why-a-podcats ul {
+  margin: 30px 20px 40px;
+  list-style: circle;
+  line-height: 44px;
+}
+
+section.why-a-podcats p {
+  padding: 50px 0 20px;
+  line-height: 44px;
+}
+
+section.why-a-podcats ul li {
+  font-size: 24px;
+  padding: 20px 0;
+}
+
+section.contact-form {
+  margin-top: 40px;
+}
+
+section.contact-form form {
+  padding: 30px 0;
+}
+
+section.contact-form .row {
+  display: flex;
+  flex-direction: row;
+}
+
+section.contact-form .row div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px 15px 0;
+}
+
+section.contact-form .row input {
+  height: 40px;
+  text-transform: capitalize;
+}
+
+section.contact-form .row input[type="email"] {
+  text-transform: none;
+}
+
+section.contact-form .row label {
+  display: none;
+}
+
+section.contact-form input,
+section.contact-form textarea {
+  border: 2px solid #333;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+section.contact-form textarea {
+  padding: 10px;
+  min-height: 150px;
+}
+
+section.contact-form button {
+  border: 2px solid #000;
+  color: #000;
+  font-size: 20px;
+  background: #efe532;
+  height: 50px;
+  margin-top: 20px;
+  width: 100px;
+  padding: 0;
+}
+
+section.contact-form .privacy-policy label {
+  display: inline;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+section.contact-form .privacy-policy div {
+  align-items: center;
+  flex-direction: row;
+}
+
+footer {
+  max-width: 690px;
+  margin: 0 auto;
+  padding: 25px 25px 35px;
+  font-size: 16px;
+  background: #eee;
+}
+
+footer img {
+  display: block;
+  width: 150px;
+  margin: 0 -10px 20px;
+}
+@media only screen and (max-width: 600px) {
+  section.how-it-works h2,
+  section.why-a-podcats h2 {
+    font-size: 33px;
+    line-height: 36px;
+  }
+
+  section.about p {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  section.how-it-works .content,
+  section.why-a-podcats .content {
+    margin-top: 50px;
+  }
+
+  section.how-it-works ol {
+    margin: 25px 0;
+  }
+
+  section.how-it-works ol h3 {
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  section.how-it-works ol p {
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  section.contact-form .row {
+    flex-direction: column;
+  }
+}
