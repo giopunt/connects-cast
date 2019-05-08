@@ -246,7 +246,7 @@ main section p {
 
 section.why-a-podcats ul {
   margin: 30px 20px 40px;
-  list-style: circle;
+  list-style: disc;
   line-height: 44px;
 }
 
@@ -347,6 +347,23 @@ section.contact-form .privacy-policy div {
   flex-direction: row;
 }
 
+main section.listen-to-ours {
+  min-height: auto;
+  padding: 50px 0;
+}
+
+section.listen-to-ours h2 {
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 500;
+  margin: 30px 0 20px;
+}
+
+section.listen-to-ours p {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
 footer {
   background: #eee;
 }
@@ -359,7 +376,7 @@ footer .social-parent {
 
 footer .social {
   display: flex;
-  flex: 2;
+  flex: 1;
   align-items: center;
 }
 
@@ -381,6 +398,9 @@ footer .content {
 
 footer .footer-logo-parent {
   flex: 1;
+  display: flex;
+  height: 46px;
+  align-items: center;
 }
 
 footer .footer-logo {
@@ -462,5 +482,16 @@ section.privacy-policy ul li {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  footer .social-parent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  footer .footer-logo-parent {
+    margin: 20px 0;
   }
 }
