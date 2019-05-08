@@ -32,6 +32,10 @@ a {
   border-bottom: 1px solid;
 }
 
+body {
+  min-width: 320px;
+}
+
 main section {
   width: 100%;
   min-height: 100vh;
