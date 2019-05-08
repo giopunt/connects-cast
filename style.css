@@ -97,6 +97,7 @@ section.welcome .wave {
   left: 0;
   background: url('icons/wave.png');
   animation: animate 20s linear infinite;
+  z-index: 0;
 }
 
 section.welcome .wave:before {
