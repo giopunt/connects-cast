@@ -32,6 +32,10 @@ a {
   border-bottom: 1px solid;
 }
 
+a.no-sub {
+  border: 0;
+}
+
 body {
   min-width: 320px;
 }
@@ -358,6 +362,45 @@ footer img {
   display: block;
   width: 150px;
   margin: 0 -10px 20px;
+}
+
+section.privacy-policy .content {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+section.privacy-policy .logo {
+  width: 200px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+section.privacy-policy h2 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+section.privacy-policy h3 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+section.privacy-policy p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+section.privacy-policy ul {
+  list-style: disc;
+  padding-left: 30px;
+}
+
+section.privacy-policy ul li {
+  padding-bottom: 10px;
 }
 @media only screen and (max-width: 600px) {
   section.how-it-works h2,
