@@ -49,6 +49,7 @@ main section .content {
   max-width: 690px;
   margin: 0 auto;
   padding: 0 25px;
+  z-index: 1;
 }
 
 h1 {
