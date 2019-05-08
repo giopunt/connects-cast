@@ -344,11 +344,14 @@ section.contact-form .privacy-policy div {
 }
 
 footer {
+  background: #eee;
+}
+
+footer .content {
+  font-size: 16px;
+  padding: 25px 25px 35px;
   max-width: 690px;
   margin: 0 auto;
-  padding: 25px 25px 35px;
-  font-size: 16px;
-  background: #eee;
 }
 
 footer img {
