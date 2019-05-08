@@ -351,6 +351,27 @@ footer {
   background: #eee;
 }
 
+footer .social-parent {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+footer .social {
+  display: flex;
+  flex: 2;
+  align-items: center;
+}
+
+footer .social img {
+  width: 50px;
+}
+
+footer .social a {
+  width: 50px;
+  padding: 5px;
+}
+
 footer .content {
   font-size: 16px;
   padding: 25px 25px 35px;
@@ -358,10 +379,13 @@ footer .content {
   margin: 0 auto;
 }
 
-footer img {
+footer .footer-logo-parent {
+  flex: 1;
+}
+
+footer .footer-logo {
   display: block;
   width: 150px;
-  margin: 0 -10px 20px;
 }
 
 section.privacy-policy .content {
