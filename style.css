@@ -178,6 +178,10 @@ section.welcome .wave:after {
   }
 }
 
+section.welcome a {
+  border-bottom-width: 2px;
+}
+
 section.welcome h2 {
   margin-bottom: 30px;
 }
