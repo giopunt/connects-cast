@@ -24,11 +24,61 @@
   </script>
   <link rel="stylesheet" href="./reset.css?v=1.0">
   <link rel="stylesheet" href="./style.css?v=1.4">
+  <script>
+    var isNavVisible = false;
+    var toogleMenu = function (id) {
+      if (id && window.innerWidth > 600) {
+        event.preventDefault();
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth' })
+      }
+      if (window.innerWidth <= 600) {
+        document.getElementById("nav").style.display = isNavVisible ? "none" : "block";
+        document.getElementById("cross").style.display = isNavVisible ? "none" : "block";
+        document.getElementById("toggle").style.display = isNavVisible ? "block" : "none";
+        document.getElementById("main").style.display = isNavVisible ? "block" : "none";
+        isNavVisible = !isNavVisible;
+      }
+    }
+    function closeNavOnDesktop() {
+      if (window.innerWidth > 600) {
+        document.getElementById("nav").style.display = "block";
+        document.getElementById("cross").style.display = "none";
+        document.getElementById("toggle").style.display = "none";
+        document.getElementById("main").style.display = "block";
+        isNavVisible = false;
+      } else if (window.innerWidth <= 600 && !isNavVisible) {
+        document.getElementById("nav").style.display = "none";
+        document.getElementById("cross").style.display = "none";
+        document.getElementById("toggle").style.display = "block";
+        document.getElementById("main").style.display = "block";
+        isNavVisible = false;
+      }
+    }
+
+    window.onresize = closeNavOnDesktop;
+  </script>
 </head>
 
 <body>
 </body>
-<main>
+<header>
+  <div class="toggle" id="toggle" onclick="toogleMenu()"></div>
+  <nav id="nav">
+    <div class="cross" id="cross" onclick="toogleMenu()"></div>
+    <ul>
+      <li>
+        <a href="#how-it-works" onclick="toogleMenu('how-it-works')">How it works</a>
+      </li>
+      <li>
+        <a href="#get-in-touch" onclick="toogleMenu('get-in-touch')">Get in touch</a>
+      </li>
+      <li>
+        <a href="#why-to-podcast" onclick="toogleMenu('why-to-podcast')">Why to podcast?</a>
+      </li>
+    </ul>
+</header>
+</nav>
+<main id="main">
   <section class="welcome">
     <div class="content">
       <h1 class="logo"><img src="./icons/logo_with_type.png" alt="Connects Cast" /></h1>
@@ -50,7 +100,7 @@
         like you.</p>
     </div>
   </section>
-  <section class="how-it-works">
+  <section class="how-it-works" id="how-it-works">
     <div class="content">
       <h2>How it works</h2>
       <ol>
@@ -96,27 +146,7 @@
       </ol>
     </div>
   </section>
-  <section class="why-a-podcats">
-    <div class="content">
-      <h2>Why is it time to podcast?</h2>
-      <p>Podcast listeners are the perfect audience: <a href="https://musicoomph.com/podcast-statistics/"
-          target="_blank" rel="noopener noreferrer">according to
-          stats</a>, they’re diverse, gender neutral, and high net
-        worth individuals with plenty of disposable income.<br /><br /><br /> <strong>Still need convincing?</strong>
-      </p>
-      <ul>
-        <li>80% of podcast users listen to all or most of the episodes they follow, at an average of seven shows a week.
-        </li>
-        <li>63% of podcast listeners have made a purchase based on something the host has recommended.</li>
-        <li>50% of all homes are podcast fans, meaning that’s over 60 million homes currently a part of the audio
-          interface space.</li>
-        <li>All stats sourced via <a href="https://www.podcastinsights.com/podcast-statistics/" target="_blank"
-            rel="noopener noreferrer">Podcast Insights</a>
-        </li>
-      </ul>
-    </div>
-  </section>
-  <section class="contact-form">
+  <section class="contact-form" id="get-in-touch">
     <div class="content">
       <h2>Thinking of podcasting? Drop us a line and we’ll be in touch.</h2>
       <form action="https://formspree.io/hello@connectscast.com" method="POST">
@@ -157,6 +187,26 @@
       </form>
     </div>
   </section>
+  <section class="why-a-podcats" id="why-to-podcast">
+    <div class="content">
+      <h2>Why is it time to podcast?</h2>
+      <p>Podcast listeners are the perfect audience: <a href="https://musicoomph.com/podcast-statistics/"
+          target="_blank" rel="noopener noreferrer">according to
+          stats</a>, they’re diverse, gender neutral, and high net
+        worth individuals with plenty of disposable income.<br /><br /><br /> <strong>Still need convincing?</strong>
+      </p>
+      <ul>
+        <li>80% of podcast users listen to all or most of the episodes they follow, at an average of seven shows a week.
+        </li>
+        <li>63% of podcast listeners have made a purchase based on something the host has recommended.</li>
+        <li>50% of all homes are podcast fans, meaning that’s over 60 million homes currently a part of the audio
+          interface space.</li>
+        <li>All stats sourced via <a href="https://www.podcastinsights.com/podcast-statistics/" target="_blank"
+            rel="noopener noreferrer">Podcast Insights</a>
+        </li>
+      </ul>
+    </div>
+  </section>
   <section class="listen-to-ours">
     <div class="content">
       <h3>
@@ -182,6 +232,13 @@
               src="./icons/connects-logo.png" /></a>
         </div>
       </div>
+      <ul class="office-address">
+        <li><strong>SEEN Connects</strong>,</li>
+        <li>7th Floor the Tea Building,</li>
+        <li>56 Shoreditch High Street,</li>
+        <li>London,</li>
+        <li>E1 6JJ</li>
+      </ul>
       Copyright © 2019. <a href="https://seenconnects.com/" target="_blank" rel="noopener noreferrer">SEEN Connects</a>.
       <br />
       <br />
@@ -189,6 +246,16 @@
       <a href="./privacy-policy">Privacy Policy</a>
     </div>
   </footer>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140230979-1"></script>
+  <script async src="polyfill.js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-140230979-1');
+  </script>
 </main>
 
 </html>
