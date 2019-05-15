@@ -244,26 +244,54 @@ section.why-a-podcats h2 {
   margin: 30px 0 20px;
 }
 
-section.how-it-works ol {
+main section.how-it-works .content,
+section.why-a-podcats .content {
+  max-width: none;
+  z-index: 1;
+}
+
+section.how-it-works h2,
+section.why-a-podcats h2,
+section.why-a-podcats h2 ~ p {
+  max-width: 690px;
+  margin: 0 auto;
+}
+
+section.how-it-works ol,
+section.why-a-podcats ul {
   margin: 40px 0;
+  display: inline-grid;
+  grid-template-columns: auto auto;
 }
 
-section.how-it-works ol p {
-  font-size: 24px;
-  margin: 30px 0 20px;
+section.why-a-podcats ul {
+  grid-template-columns: auto auto auto;
+}
+
+section.how-it-works ol p,
+section.why-a-podcats ul p {
+  font-size: 20px;
+  margin: 20px 0 10px;
   color: #333;
-  line-height: 40px;
+  line-height: 30px;
 }
 
-section.how-it-works ol li {
-  padding: 20px 0;
+section.how-it-works ol li,
+section.why-a-podcats ul li {
+  padding: 30px 25px;
+  max-width: 300px;
+  margin: 10px;
+  background: #eee;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 section.how-it-works ol h3 {
   font-weight: 500;
   font-size: 24px;
   text-transform: uppercase;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 main section p {
@@ -284,8 +312,8 @@ section.why-a-podcats p {
 }
 
 section.why-a-podcats ul li {
-  font-size: 24px;
-  padding: 20px 0;
+  font-size: 20px;
+  padding: 20px;
 }
 
 section.contact-form form {
@@ -446,6 +474,7 @@ section.privacy-policy .content {
   margin-bottom: 30px;
 }
 
+section.contact-us .logo,
 section.privacy-policy .logo {
   width: 200px;
   display: inline-block;
@@ -495,6 +524,22 @@ section.privacy-policy ul li {
     display: inline-block;
     padding: 0 10px;
     box-sizing: border-box;
+  }
+}
+@media only screen and (max-width: 800px) {
+  section.how-it-works ol {
+    margin: 40px 0;
+    display: inline-grid;
+    grid-template-columns: auto;
+  }
+
+  section.how-it-works h2 {
+    padding-bottom: 10px;
+  }
+
+  section.why-a-podcats ul {
+    margin: 0 auto;
+    grid-template-columns: auto;
   }
 }
 @media only screen and (max-width: 600px) {
