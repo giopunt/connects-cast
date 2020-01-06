@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="https://www.connectscast.com/" target="_blank" rel="noopener noreferrer">
-    <img alt="Connects Cast Logo" src="https://raw.githubusercontent.com/giopunt/verified-views-poc/master/src/images/logo.jpg" width="100" />
-  </a>
-</p>
 <h1 align="center">
   🎤 Connects Cast | Welcome to the new wave of influential sound
 </h1>
@@ -12,8 +7,6 @@
 Go to https://www.connectscast.com/admin/, login in with your github profile.
 
 From the dashboard you can add a new insight or edit the old ones and add new thumbnails.
-
-![](static/admin.png)
 
 Once you have sucessfully added or modified an post, the website will take a few minutes to update, check the status badge below: 
 
