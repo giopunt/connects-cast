@@ -1,0 +1,656 @@
+@font-face {
+  font-family: 'Founders Grotesque';
+  src: url("./fonts/FoundersGroteskWeb-Regular.woff2") format("woff2"), url("./fonts/FoundersGroteskWeb-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Founders Grotesque';
+  src: url("./fonts/FoundersGroteskWeb-Medium.woff2") format("woff2"), url("./fonts/FoundersGroteskWeb-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Founders Grotesque';
+  src: url("./fonts/FoundersGroteskWeb-Semibold.woff2") format("woff2"), url("./fonts/FoundersGroteskWeb-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+body,
+body *,
+html {
+  font-family: 'Founders Grotesque', sans-serif;
+}
+
+a {
+  color: #2d2d2d;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+a.no-sub {
+  border: 0;
+}
+
+body {
+  min-width: 320px;
+}
+
+header {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  text-align: right;
+  z-index: 2;
+}
+
+header nav li {
+  padding: 3px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom-width: 2px;
+}
+
+header nav a {
+  border-bottom-width: 2px;
+}
+
+header .toggle {
+  display: none;
+}
+
+main section {
+  width: 100%;
+  min-height: calc(var(--vh, 1vh) * 100);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+main section:nth-child(2n) {
+  background-color: #efe532;
+}
+
+main section .content {
+  max-width: 690px;
+  margin: 0 auto;
+  padding: 0 25px;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 44px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: .4px;
+}
+
+h3 {
+  font-size: 27px;
+  line-height: 30px;
+  letter-spacing: .4px;
+}
+
+h1.logo img {
+  width: 300px;
+  margin-bottom: 30px;
+  margin-left: -20px;
+}
+
+strong {
+  font-weight: 500;
+}
+
+section.welcome {
+  background: #eee;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section.welcome .wave {
+  position: absolute;
+  width: 100%;
+  height: 143px;
+  bottom: 0;
+  left: 0;
+  background: url('icons/wave.png');
+  -webkit-animation: animate 20s linear infinite;
+  animation: animate 20s linear infinite;
+  z-index: 0;
+}
+
+section.welcome .wave:before {
+  content: '';
+  width: 100%;
+  height: 143px;
+  background: url('icons/wave.png');
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .4;
+  -webkit-animation: animate-reverse 20s linear infinite;
+  animation: animate-reverse 20s linear infinite;
+}
+
+section.welcome .wave:after {
+  content: '';
+  width: 100%;
+  height: 143px;
+  background: url('icons/wave.png');
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .6;
+  -webkit-animation-delay: -5s;
+  animation-delay: -5s;
+  -webkit-animation: animate-reverse 30s linear infinite;
+  animation: animate-reverse 30s linear infinite;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: 1360px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: 1360px;
+  }
+}
+
+@-webkit-keyframes animate-reverse {
+  0% {
+    background-position: 1360px;
+  }
+
+  100% {
+    background-position: 0;
+  }
+}
+
+@keyframes animate-reverse {
+  0% {
+    background-position: 1360px;
+  }
+
+  100% {
+    background-position: 0;
+  }
+}
+
+section.welcome a {
+  border-bottom-width: 2px;
+}
+
+section.welcome h2 {
+  margin-bottom: 30px;
+}
+
+section.welcome h2.message {
+  font-weight: 500;
+}
+
+section.welcome h2.description {
+  color: #333;
+}
+
+section.about img {
+  margin: 0 auto 30px;
+  display: block;
+  width: 200px;
+}
+
+section.about p {
+  text-align: center;
+  letter-spacing: .4px;
+  line-height: 40px;
+}
+
+section.how-it-works .content,
+section.why-a-podcast .content {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+section.how-it-works h2,
+section.why-a-podcast h2 {
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 500;
+  margin: 30px 0 20px;
+}
+
+main section.how-it-works .content,
+section.why-a-podcast .content {
+  max-width: none;
+  z-index: 1;
+}
+
+section.how-it-works h2,
+section.why-a-podcast h2,
+section.why-a-podcast h2 ~ p {
+  max-width: 690px;
+  margin: 0 auto;
+}
+
+section.how-it-works ol,
+section.why-a-podcast ul {
+  margin: 40px 0;
+  display: inline-grid;
+  grid-template-columns: auto auto;
+}
+
+section.why-a-podcast ul {
+  grid-template-columns: auto auto auto;
+}
+
+section.how-it-works ol p,
+section.why-a-podcast ul p {
+  font-size: 20px;
+  margin: 20px 0 10px;
+  color: #333;
+  line-height: 30px;
+}
+
+section.how-it-works ol li,
+section.why-a-podcast ul li {
+  padding: 30px 25px;
+  max-width: 300px;
+  margin: 10px;
+  background: #eee;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+section.how-it-works ol h3 {
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+
+main section p {
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: .4px;
+}
+
+section.why-a-podcast ul {
+  margin: 30px 20px 40px;
+  list-style: disc;
+  line-height: 44px;
+}
+
+section.why-a-podcast p {
+  padding: 50px 0 20px;
+  line-height: 44px;
+}
+
+section.why-a-podcast ul li {
+  font-size: 20px;
+  padding: 20px;
+}
+
+section.contact-form form {
+  padding: 30px 0;
+}
+
+section.contact-form .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+section.contact-form .row div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 15px 20px 15px 0;
+}
+
+section.contact-form .row input {
+  height: 40px;
+  text-transform: capitalize;
+}
+
+section.contact-form .row input[type="email"] {
+  text-transform: none;
+}
+
+section.contact-form .row label {
+  display: none;
+}
+
+section.contact-form input,
+section.contact-form textarea {
+  border: 2px solid #333;
+  padding: 0 10px;
+  font-size: 18px;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+section.contact-form textarea {
+  padding: 10px;
+  min-height: 150px;
+  resize: none;
+}
+
+section.contact-form button {
+  border: 2px solid #000;
+  color: #000;
+  font-size: 20px;
+  background: #efe532;
+  height: 50px;
+  margin-top: 20px;
+  width: 100px;
+  padding: 0;
+}
+
+section.contact-form .privacy-policy label {
+  display: inline;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+section.contact-form .privacy-policy div {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+main section.listen-to-ours {
+  min-height: auto;
+  padding: 50px 0;
+}
+
+section.listen-to-ours h3 {
+  font-size: 30px;
+  line-height: 33px;
+  font-weight: 500;
+  margin: 25px 0 15px;
+}
+
+section.listen-to-ours p {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+footer {
+  background: #eee;
+}
+
+footer .social-parent {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+footer .social {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+footer .social img {
+  width: 50px;
+}
+
+footer .social a {
+  width: 50px;
+  padding: 5px;
+}
+
+footer .content {
+  font-size: 16px;
+  padding: 25px 25px 35px;
+  max-width: 690px;
+  margin: 0 auto;
+}
+
+footer .footer-logo-parent {
+  flex: 1;
+  display: flex;
+  height: 46px;
+  align-items: center;
+}
+
+footer .footer-logo {
+  display: block;
+  width: 150px;
+}
+
+footer .office-address {
+  padding: 30px 0;
+}
+
+footer .office-address li {
+  padding: 5px 0;
+}
+
+section.privacy-policy .content {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+section.contact-us .logo,
+section.privacy-policy .logo {
+  width: 200px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+section.privacy-policy h2 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+section.privacy-policy h3 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+section.privacy-policy p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+section.privacy-policy ul {
+  list-style: disc;
+  padding-left: 30px;
+}
+
+section.privacy-policy ul li {
+  padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1060px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(255, 255, 255, 0.5);
+    z-index: 2;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  header nav li {
+    display: inline-block;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  section.how-it-works ol {
+    margin: 40px 0;
+    display: inline-grid;
+    grid-template-columns: auto;
+  }
+
+  section.how-it-works h2 {
+    padding-bottom: 10px;
+  }
+
+  section.why-a-podcast ul {
+    margin: 0 auto;
+    grid-template-columns: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    //position: absolute;
+    top: 30px;
+    right: 20px;
+    text-align: center;
+  }
+
+  header nav {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding-top: 100px;
+  }
+
+  header .toggle {
+    display: block;
+    background-image: url("/icons/menu-icon.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    width: 55px;
+    height: 55px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 50%;
+    background-position: center;
+  }
+
+  header .cross {
+    display: none;
+    background-image: url("/icons/cross-icon.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    background-position: center;
+  }
+
+  nav ul li {
+    padding: 20px;
+    font-size: 27px;
+  }
+
+  section.how-it-works h2,
+  section.why-a-podcast h2 {
+    font-size: 33px;
+    line-height: 36px;
+  }
+
+  section.about p {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  section.how-it-works .content,
+  section.why-a-podcast .content {
+    margin-top: 50px;
+  }
+
+  section.how-it-works ol {
+    margin: 25px 0;
+  }
+
+  section.how-it-works ol h3 {
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  section.how-it-works ol p {
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  section.contact-form {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  section.contact-form .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  footer .social-parent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  footer .footer-logo-parent {
+    margin: 20px 0;
+  }
+}
