@@ -534,6 +534,10 @@ section.privacy-policy ul li {
   }
 }
 
+header .cross {
+  display: none;
+}
+
 @media only screen and (max-width: 800px) {
   section.how-it-works ol {
     margin: 40px 0;
@@ -581,6 +585,10 @@ section.privacy-policy ul li {
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 50%;
     background-position: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0px;
   }
 
   header .cross {
@@ -594,6 +602,11 @@ section.privacy-policy ul li {
     top: 30px;
     right: 20px;
     background-position: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0px;
+    background-color: #fff;
   }
 
   nav ul li {
