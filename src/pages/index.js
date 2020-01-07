@@ -16,7 +16,7 @@ const IndexPage = () => (
     </section>
     <section className="about">
       <div className="content">
-        <img src="/icons/logo.png" />
+        <img alt="" src="/icons/logo.png" />
         <p><strong>We make sure your voice is heard, and your views are verified.</strong> Our podcasts are original – just like you.</p>
       </div>
     </section>

@@ -89,6 +89,17 @@ function SEO({ description, lang, meta, title }) {
 
         window.onresize = closeNavOnDesktop;
       `}</script>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-140230979-1"
+      />
+      <script async src="/polyfill.js"></script>
+      <script>{`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag("js", new Date());
+        gtag("config", "UA-140230979-1");
+    `}</script>
     </Helmet>
   )
 }

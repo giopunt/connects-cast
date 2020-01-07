@@ -9,7 +9,7 @@ const PrivacyPolicy = () => (
     <SEO title="Privacy Policy | Welcome to the new wave of influential sound." />
     <section className="privacy-policy">
       <div className=" content">
-        <Link to="/" className="no-sub"><img src="/icons/logo_with_type.png" className="logo" /></Link>
+        <Link to="/" className="no-sub"><img alt="" src="/icons/logo_with_type.png" className="logo" /></Link>
         <h2>Seen Connects Limited Internet Privacy Policy</h2>
         <p>This website is operated by Seen Connects Limited (“we” ; “us” or “Connects). By using and visiting our website and by submitting your personal information to us you agree to us using your personal information as set out in this privacy policy.</p>
         <p>We respect the privacy of users of our website and recognise that when you choose to provide us with information about yourself, you trust us to act in a responsible manner with that information. This privacy policy contains important information about how we use your personal information.</p>

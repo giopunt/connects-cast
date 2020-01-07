@@ -1,4 +1,3 @@
-import PropTypes from "prop-types"
 import React, { Component } from "react"
 
 class Header extends Component {
@@ -19,18 +18,18 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <div className="toggle" id="toggle" onClick={this.toogleMenu}></div>
+        <button className="toggle" id="toggle" onClick={this.toogleMenu}></button>
         <nav id="nav">
-          <div className="cross" id="cross" onClick={this.toogleMenu}></div>
+          <button className="cross" id="cross" onClick={this.toogleMenu}></button>
           <ul>
             <li>
-              <a href="#how-it-works" onClick={this.toogleMenu.bind('how-it-works')}>How it works</a>
+              <a href="#how-it-works" role="button" onClick={this.toogleMenu.bind('how-it-works')}>How it works</a>
             </li>
             <li>
-              <a href="#get-in-touch" onClick={this.toogleMenu.bind('get-in-touch')}>Get in touch</a>
+              <a href="#get-in-touch" role="button" onClick={this.toogleMenu.bind('get-in-touch')}>Get in touch</a>
             </li>
             <li>
-              <a href="#why-to-podcast" onClick={this.toogleMenu.bind('why-to-podcast')}>Why Podcast?</a>
+              <a href="#why-to-podcast" role="button" onClick={this.toogleMenu.bind('why-to-podcast')}>Why Podcast?</a>
             </li>
           </ul>
         </nav>
