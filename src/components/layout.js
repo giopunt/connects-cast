@@ -53,8 +53,8 @@ const Layout = ({ children, withHeader }) => {
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments)}
-            gtag('js', new Date());
-            gtag('config', 'UA-140230979-1');
+            gtag("js", new Date());
+            gtag("config", "UA-140230979-1");
           `}
         </script>
       </main>
