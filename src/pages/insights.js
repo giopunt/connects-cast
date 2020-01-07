@@ -14,7 +14,7 @@ const InsightsPage = ({ data }) => (
     <section className={styles.section}>
       <div className={styles.content}>
         <h2 className={styles.title}>Insights</h2>
-        <p>Podcast listeners are the perfect audience: <a href="https://musicoomph.com/podcast-statistics/" target="_blank" rel="noopener noreferrer">according to stats</a>, they’re diverse, gender neutral, and high net worth individuals with plenty of disposable income.
+        <p>White papers, insights reports & nuggets of knowledge. If that’s your thing, help yourself! What’s the catch? You’ll need about 15 seconds to fill in the download form. Easy.
           <br /><br /><br /> <strong>Still need convincing?</strong>
         </p>
         <ul className={styles.postsList}>
