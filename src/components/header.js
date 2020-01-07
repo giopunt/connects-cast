@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { Component } from "react"
 
@@ -32,9 +31,6 @@ class Header extends Component {
             </li>
             <li>
               <a href="#why-to-podcast" onClick={this.toogleMenu.bind('why-to-podcast')}>Why Podcast?</a>
-            </li>
-            <li>
-              <Link to="insights" onClick={this.toogleMenu}>Insights</Link>
             </li>
           </ul>
         </nav>
