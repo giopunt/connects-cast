@@ -69,8 +69,8 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
-      <script>
-        {`window.isNavVisible = false;
+      <script>{`
+        window.isNavVisible = false;
         function closeNavOnDesktop() {
           if (window.innerWidth > 600) {
             document.getElementById("nav").style.display = "block";
@@ -87,8 +87,8 @@ function SEO({ description, lang, meta, title }) {
           }
         }
 
-        window.onresize = closeNavOnDesktop;`}
-      </script>
+        window.onresize = closeNavOnDesktop;
+      `}</script>
     </Helmet>
   )
 }
