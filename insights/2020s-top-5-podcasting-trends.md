@@ -35,6 +35,9 @@ content: >-
   a podcast?
 
 
+  ![](/assets/connects-logo-cc387ac71660b5c572cb0544b5f5819a.png)
+
+
   **Our recommendation:** *New York Times’* [The
   Daily](https://podcasts.apple.com/gb/podcast/the-daily/id1200361736) (which
   also happens to be [the most listened to podcast of
