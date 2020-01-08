@@ -712,3 +712,8 @@ header .cross {
     margin: 20px 0;
   }
 }
+
+.four-o-four {
+  max-width: 500px;
+  margin: 50px auto;
+}
