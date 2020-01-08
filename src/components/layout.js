@@ -28,7 +28,7 @@ const Layout = ({ children, withHeader }) => {
                 <a href="https://www.instagram.com/connectscast/" target="_blank" rel="noopener noreferrer" className="no-sub"><img alt="" src="/icons/instagram.png" /></a>
               </div>
               <div className="footer-logo-parent">
-                <img src="icons/logo_with_type.png" alt="" className="footer-logo" />
+                <img src="/icons/logo_with_type.png" alt="" className="footer-logo" />
                 <a href="https://seenconnects.com/" className="no-sub"><img alt="" className="footer-logo" src="/icons/connects-logo.png" /></a>
               </div>
             </div>
