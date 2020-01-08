@@ -8,8 +8,6 @@ content: |-
 
   <https://jolly-kepler-7b26db.netlify.com/>
 
-  ![]()
-
   **:)**
 ---
 
