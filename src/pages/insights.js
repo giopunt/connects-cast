@@ -14,7 +14,7 @@ const InsightsPage = ({ data }) =>
         <div className={styles.content}>
           <Link to="/" className="no-sub"><img alt="" src="/icons/logo_with_type.png" className="logo" /></Link>
           <h2 className={styles.title}>Insights</h2>
-          <p>White papers, insights reports & nuggets of knowledge. If that’s your thing, help yourself! What’s the catch?<br /><br /><br /></p>
+          <p>White papers, insights reports & nuggets of knowledge. If that’s your thing, help yourself!<br /><br /><br /></p>
           <ul className={styles.postsList}>
             {
               data.allMarkdownRemark.edges.map(({ node }) =>
