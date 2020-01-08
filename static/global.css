@@ -514,6 +514,11 @@ article.insight-content .post-content-body p {
   padding: 10px 0;
 }
 
+article.insight-content .post-content-body img {
+  margin: 10px auto;
+  display: block;
+}
+
 section.contact-us .logo,
 section.insights-page .logo,
 article.insight-content .logo,
