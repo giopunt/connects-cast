@@ -502,6 +502,7 @@ article.insight-content .post-content-excerpt {
 article.insight-content .post-content-image {
   display: block;
   margin: 10px auto;
+  width: 100%;
 }
 
 article.insight-content .post-content-body {
