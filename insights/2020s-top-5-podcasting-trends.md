@@ -35,7 +35,7 @@ content: >-
   a podcast?
 
 
-  **Our recommendation: ***New York Times’* [The
+  **Our recommendation:** *New York Times’* [The
   Daily](https://podcasts.apple.com/gb/podcast/the-daily/id1200361736)(which
   also happens to be[the most listened to podcast of
   2019](https://www.buzzsprout.com/blog/podcast-statistics)) is beautifully
