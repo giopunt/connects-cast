@@ -712,6 +712,10 @@ header .cross {
   footer .footer-logo-parent {
     margin: 20px 0;
   }
+
+  article.insight-content .post-content-body img {
+    width: 100%;
+  }
 }
 
 .four-o-four {
