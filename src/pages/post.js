@@ -1,10 +1,14 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import PropTypes from "prop-types"
+import showdown from 'showdown'
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import styles from "./insights.module.css";
+
+const converter = new showdown.Converter()
 
 const InsightsPage = ({ data }) =>
   (
@@ -19,16 +23,12 @@ const InsightsPage = ({ data }) =>
             {
               data.allMarkdownRemark.edges.map(({ node }) =>
                 (<li key={node.frontmatter.id} className={styles.post}>
+                  {node.frontmatter.title}
+                  {node.frontmatter.excerpt}
                   <div
-                    className={styles.postImg}
-                    style={{ backgroundImage: `url(${node.frontmatter.image})` }}
-                  ></div>
-                  <div className={styles.postTitle}>
-                    {node.frontmatter.title}
-                  </div>
-                  <div className={styles.postExcerpt}>
-                    {node.frontmatter.excerpt}
-                  </div>
+                    className="blog-post-content"
+                    dangerouslySetInnerHTML={{ __html: converter.makeHtml(node.frontmatter.content) }}
+                  />
                 </li>))
             }
           </ul>

@@ -481,10 +481,15 @@ section.privacy-policy .content {
 }
 
 section.contact-us .logo,
+section.insights-page .logo,
 section.privacy-policy .logo {
   width: 200px;
   display: inline-block;
   margin-bottom: 30px;
+}
+
+section.insights-page .logo {
+  margin-left: -15px;
 }
 
 section.privacy-policy h2 {

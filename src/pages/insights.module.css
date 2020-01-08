@@ -11,16 +11,17 @@
   margin-top: 50px;
   max-width: none;
   z-index: 1;
+  padding: 0 20px;
 }
 
 .title {
   font-size: 40px;
   line-height: 44px;
   font-weight: 500;
-  margin: 30px 0 20px;
+  margin: 30px auto 20px;
+  max-width: 690px;
 }
 
-.title,
 .title ~ p {
   max-width: 690px;
   margin: 0 auto;
@@ -36,19 +37,44 @@
 
 .post {
   max-width: 300px;
+  min-width: 240px;
   margin: 10px;
-  background: #eee;
   display: flex;
   align-content: center;
   flex-wrap: wrap;
   font-size: 20px;
   padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.postImg {
+  width: 100%;
+  padding-top: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  margin-bottom: 30px;
+  background-color: #eee;
+}
+
+.postTitle {
+  font-weight: bold;
+  text-align: center;
+}
+
+.postExcerpt {
+  text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
   .postsList {
+    display: grid;
     margin: 0 auto;
     grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
   }
 }
 
