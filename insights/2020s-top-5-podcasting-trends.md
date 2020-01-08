@@ -35,7 +35,7 @@ content: >-
   a podcast?
 
 
-  **Our recommendation:***New York Times’*[The
+  **Our recommendation: ***New York Times’* [The
   Daily](https://podcasts.apple.com/gb/podcast/the-daily/id1200361736)(which
   also happens to be[the most listened to podcast of
   2019](https://www.buzzsprout.com/blog/podcast-statistics)) is beautifully
@@ -68,8 +68,8 @@ content: >-
   podcasting might just be your ticket to the silver screen.
 
 
-  **Our recommendation:**[My Dad Wrote a
-  Porno](https://podcasts.apple.com/gb/podcast/my-dad-wrote-a-porno/id1044196249)on
+  **Our recommendation:** [My Dad Wrote a Porno
+  ](https://podcasts.apple.com/gb/podcast/my-dad-wrote-a-porno/id1044196249)on
   HBO is just as funny as the original podcast (a genuine comedic challenge when
   translating something into the television medium).
 
@@ -93,7 +93,7 @@ content: >-
   Podcasts (34%) and Spotify (23%).
 
 
-  **Our recommendation:**[The Joe Rogan
+  **Our recommendation:** [The Joe Rogan
   Experience](https://podcasts.apple.com/gb/podcast/the-joe-rogan-experience/id360084272)(note
   that for Rogan’s podcasting empire there’s even a separate channel for his
   Experience *clips.* More eyes, more dollar!)
@@ -117,8 +117,9 @@ content: >-
   either purchase or research the goods or services being sold.
 
 
-  **Our recommendation:**Of course, nothing can beat a bit of creativity when it
-  comes to advertising, and a show that does this brilliantly is[The Adam Buxton
+  **Our recommendation:** Of course, nothing can beat a bit of creativity when
+  it comes to advertising, and a show that does this brilliantly is[The Adam
+  Buxton
   podcast](https://podcasts.apple.com/gb/podcast/the-adam-buxton-podcast/id1040481893).
   Turning his adverts into songs, Adam has listeners on Twitter and Reddit
   ecstatically claiming,“I’d probably buy the album if he released them in a
@@ -146,7 +147,7 @@ content: >-
   to:[Heavyweight](https://podcasts.apple.com/gb/podcast/heavyweight/id1150800298)
 
 
-  **TV companion podcasts:**pretty much does what it says on the tin, an
+  **TV companion podcasts:** pretty much does what it says on the tin, an
   entertaining catch-up of extras or gossip following the latest episode of your
   favourite TV programme.
 
@@ -155,15 +156,15 @@ content: >-
   Podcast](https://podcasts.apple.com/gb/podcast/the-crown-the-official-podcast/id1485757121)
 
 
-  **Fiction:**a more entertaining alternative to the plays on Radio 4!
+  **Fiction:** a more entertaining alternative to the plays on Radio 4!
 
 
   Listen to:[Dear Joan and
   Jericha](https://podcasts.apple.com/gb/podcast/dear-joan-and-jericha-julia-davis-and-vicki-pepperdine/id1376577916)
 
 
-  **Biopods:**a biography you don’t have to read, and a biopic you don’t have to
-  watch – intriguing instalments into the world’s most fascinating humans.
+  **Biopods:** a biography you don’t have to read, and a biopic you don’t have
+  to watch – intriguing instalments into the world’s most fascinating humans.
 
 
   Listen to:[Dolly Parton’s
