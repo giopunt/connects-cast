@@ -22,7 +22,7 @@ const InsightsPage = ({ data }) =>
                   <Link className={styles.postLink} to={node.fields.slug}>
                     <div
                       className={styles.postImg}
-                      style={{ backgroundImage: `url(${node.frontmatter.image})` }}
+                      style={{ backgroundImage: `url(/${node.frontmatter.image})` }}
                     ></div>
                     <div className={styles.postTitle}>
                       {node.frontmatter.title}
