@@ -19,16 +19,18 @@ const InsightsPage = ({ data }) =>
             {
               data.allMarkdownRemark.edges.map(({ node }) =>
                 (<li key={node.frontmatter.id} className={styles.post}>
-                  <div
-                    className={styles.postImg}
-                    style={{ backgroundImage: `url(${node.frontmatter.image})` }}
-                  ></div>
-                  <div className={styles.postTitle}>
-                    {node.frontmatter.title}
-                  </div>
-                  <div className={styles.postExcerpt}>
-                    {node.frontmatter.excerpt}
-                  </div>
+                  <Link className={styles.postLink} to={node.fields.slug}>
+                    <div
+                      className={styles.postImg}
+                      style={{ backgroundImage: `url(${node.frontmatter.image})` }}
+                    ></div>
+                    <div className={styles.postTitle}>
+                      {node.frontmatter.title}
+                    </div>
+                    <div className={styles.postExcerpt}>
+                      {node.frontmatter.excerpt}
+                    </div>
+                  </Link>
                 </li>))
             }
           </ul>
@@ -48,11 +50,12 @@ export default InsightsPage
 export const query = graphql`
   query {
     allMarkdownRemark {
-      totalCount
       edges {
         node {
           id
-          html
+          fields {
+            slug
+          }
           frontmatter {
             content
             excerpt

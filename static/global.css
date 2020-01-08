@@ -480,14 +480,53 @@ section.privacy-policy .content {
   margin-bottom: 30px;
 }
 
+article.insight-content {
+  padding: 25px;
+  max-width: 690px;
+  margin: 0 auto;
+}
+
+article.insight-content .post-content-title {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+article.insight-content .post-content-excerpt {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+article.insight-content .post-content-image {
+  display: block;
+  margin: 10px auto;
+}
+
+article.insight-content .post-content-body {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+article.insight-content .post-content-body p {
+  padding: 10px 0;
+}
+
+article.insight-content .post-content-body a {
+  margin: 0 5px;
+}
+
 section.contact-us .logo,
 section.insights-page .logo,
+article.insight-content .logo,
 section.privacy-policy .logo {
   width: 200px;
   display: inline-block;
   margin-bottom: 30px;
 }
 
+article.insight-content .logo,
 section.insights-page .logo {
   margin-left: -15px;
 }
