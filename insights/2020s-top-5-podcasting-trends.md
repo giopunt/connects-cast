@@ -195,6 +195,9 @@ content: >-
   or we can help you strategise your first move into the genre.
 
 
+  ![](/assets/connects-logo-33db625b8d7cfd9ded17fd754b8f4c84.png)
+
+
   Drop us as line at [Hello@ConnectsCast.com](mailto:Hello@ConnectsCast.com) and
   we’d be happy to help.
 ---
