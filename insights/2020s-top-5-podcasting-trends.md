@@ -195,9 +195,6 @@ content: >-
   or we can help you strategise your first move into the genre.
 
 
-  ![]()
-
-
   Drop us as line at [Hello@ConnectsCast.com](mailto:Hello@ConnectsCast.com) and
   we’d be happy to help.
 ---
