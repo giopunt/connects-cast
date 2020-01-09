@@ -35,7 +35,7 @@ content: >-
   a podcast?
 
 
-  ![](assets/1.png "Image source: nytimes.com")
+  ![](/assets/1.png "Image source: nytimes.com")
 
 
   **Our recommendation:** *New York Times’* [The
@@ -71,7 +71,7 @@ content: >-
   podcasting might just be your ticket to the silver screen.
 
 
-  ![](assets/2.png "Image source: Alice Levine")
+  ![](/assets/2.png "Image source: Alice Levine")
 
 
   **Our recommendation:** [My Dad Wrote a Porno
@@ -99,7 +99,7 @@ content: >-
   Podcasts (34%) and Spotify (23%).
 
 
-  ![](assets/3.png "Image source: Joe Rogan ")
+  ![](/assets/3.png "Image source: Joe Rogan ")
 
 
   **Our recommendation:** [The Joe Rogan Experience
@@ -126,7 +126,7 @@ content: >-
   either purchase or research the goods or services being sold.
 
 
-  ![](assets/4.png "Image source: Adam Buxton")
+  ![](/assets/4.png "Image source: Adam Buxton")
 
 
   **Our recommendation:** Of course, nothing can beat a bit of creativity when
@@ -183,7 +183,7 @@ content: >-
   America](https://podcasts.apple.com/gb/podcast/dolly-partons-america/id1481398762)
 
 
-  ![](assets/5.png "Image source: Somethin’ Else")
+  ![](/assets/5.png "Image source: Somethin’ Else")
 
 
   If this has whetted your proverbial podcast appetite, and you’re wondering
