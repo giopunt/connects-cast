@@ -35,7 +35,7 @@ content: >-
   a podcast?
 
 
-  ![](/assets/connects-logo-cc387ac71660b5c572cb0544b5f5819a.png)
+  ![](assets/1.png "Image source: nytimes.com")
 
 
   **Our recommendation:** *New York Times’* [The
