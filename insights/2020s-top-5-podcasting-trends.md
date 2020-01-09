@@ -71,6 +71,9 @@ content: >-
   podcasting might just be your ticket to the silver screen.
 
 
+  ![](assets/2.png "Image source: Alice Levine")
+
+
   **Our recommendation:** [My Dad Wrote a Porno
   ](https://podcasts.apple.com/gb/podcast/my-dad-wrote-a-porno/id1044196249)on
   HBO is just as funny as the original podcast (a genuine comedic challenge when
@@ -96,6 +99,9 @@ content: >-
   Podcasts (34%) and Spotify (23%).
 
 
+  ![](assets/3.png "Image source: Joe Rogan ")
+
+
   **Our recommendation:** [The Joe Rogan Experience
   ](https://podcasts.apple.com/gb/podcast/the-joe-rogan-experience/id360084272)(note
   that for Rogan’s podcasting empire there’s even a separate channel for his
@@ -118,6 +124,9 @@ content: >-
   astaggering 76% of UK podcast listeners say they have [acted on a podcast
   advert](http://www.acast.com/wp-content/uploads/2018/03/Acast_UK_Infographics.pdf)to
   either purchase or research the goods or services being sold.
+
+
+  ![](assets/4.png "Image source: Adam Buxton")
 
 
   **Our recommendation:** Of course, nothing can beat a bit of creativity when
@@ -172,6 +181,9 @@ content: >-
 
   Listen to: [Dolly Parton’s
   America](https://podcasts.apple.com/gb/podcast/dolly-partons-america/id1481398762)
+
+
+  ![](assets/5.png "Image source: Somethin’ Else")
 
 
   If this has whetted your proverbial podcast appetite, and you’re wondering
