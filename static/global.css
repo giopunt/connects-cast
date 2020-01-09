@@ -516,6 +516,7 @@ article.insight-content .post-content-body p {
 
 article.insight-content .post-content-body img {
   margin: 10px auto;
+  max-width: 100%;
   display: block;
 }
 
