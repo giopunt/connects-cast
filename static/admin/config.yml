@@ -3,7 +3,7 @@ backend:
   repo: giopunt/connects-cast
 
 media_folder: static/assets
-public_folder: assets
+public_folder: /assets
 
 collections:
   - name: insight
