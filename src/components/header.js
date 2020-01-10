@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import { Link } from "gatsby"
 
 class Header extends Component {
   toogleMenu(event, id) {
@@ -30,6 +31,9 @@ class Header extends Component {
             </li>
             <li>
               <a href="#why-to-podcast" role="button" onClick={this.toogleMenu.bind('why-to-podcast')}>Why Podcast?</a>
+            </li>
+            <li>
+              <Link to="/insights">Insights</Link>
             </li>
           </ul>
         </nav>
