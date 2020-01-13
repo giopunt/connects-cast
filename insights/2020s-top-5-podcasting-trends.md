@@ -1,6 +1,6 @@
 ---
-title: 2020’s Top 5 Podcasting Trends
-image: assets/logo-a72053d2fb5b81d420824fdf56e6a7e1.png
+title: '2020 Podcast Trends: 5 reasons the new decade sounds different'
+image: /assets/01_top5trends_04.jpg
 excerpt: 2019 has been a huge year for podcasting...
 content: >-
   2019 has been a huge year for podcasting; it was the year we launched Connects
