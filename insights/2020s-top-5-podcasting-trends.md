@@ -38,6 +38,9 @@ content: >-
   ![](/assets/1.png "Image source: nytimes.com")
 
 
+  *Image source: nytimes.com*
+
+
   **Our recommendation:** *New York Times’* [The
   Daily](https://podcasts.apple.com/gb/podcast/the-daily/id1200361736) (which
   also happens to be [the most listened to podcast of
@@ -74,6 +77,9 @@ content: >-
   ![](/assets/2.png "Image source: Alice Levine")
 
 
+  *Image source: Alice Levine*
+
+
   **Our recommendation:** [My Dad Wrote a Porno
   ](https://podcasts.apple.com/gb/podcast/my-dad-wrote-a-porno/id1044196249)on
   HBO is just as funny as the original podcast (a genuine comedic challenge when
@@ -102,6 +108,9 @@ content: >-
   ![](/assets/3.png "Image source: Joe Rogan ")
 
 
+  *Image source: Joe Rogan* 
+
+
   **Our recommendation:** [The Joe Rogan Experience
   ](https://podcasts.apple.com/gb/podcast/the-joe-rogan-experience/id360084272)(note
   that for Rogan’s podcasting empire there’s even a separate channel for his
@@ -127,6 +136,9 @@ content: >-
 
 
   ![](/assets/4.png "Image source: Adam Buxton")
+
+
+  *Image source: Adam Buxton*
 
 
   **Our recommendation:** Of course, nothing can beat a bit of creativity when
@@ -184,6 +196,9 @@ content: >-
 
 
   ![](/assets/5.png "Image source: Somethin’ Else")
+
+
+  *Image source: Somethin’ Else*
 
 
   If this has whetted your proverbial podcast appetite, and you’re wondering
