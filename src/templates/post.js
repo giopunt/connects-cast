@@ -30,7 +30,7 @@ class PostTemplate extends Component {
           )}
 
           {post.frontmatter.image && (
-            <img src={`/${post.frontmatter.image}`} class="post-content-image" alt={post.frontmatter.title} />
+            <img src={post.frontmatter.image} class="post-content-image" alt={post.frontmatter.title} />
           )}
 
           {post.frontmatter.image && (
