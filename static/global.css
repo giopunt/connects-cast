@@ -433,21 +433,6 @@ footer .social-parent {
   margin-bottom: 20px;
 }
 
-footer .social {
-  display: flex;
-  flex: 1;
-  align-items: center;
-}
-
-footer .social img {
-  width: 50px;
-}
-
-footer .social a {
-  width: 50px;
-  padding: 5px;
-}
-
 footer .content {
   font-size: 16px;
   padding: 25px 25px 35px;
